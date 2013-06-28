@@ -8,6 +8,21 @@
 
 #import <UIKit/UIKit.h>
 
-@interface WebViewViewController : UIViewController
+@interface WebViewViewController : UIViewController<UIWebViewDelegate, UITextFieldDelegate>{
+    UIWebView *webView;
+    
+    UINavigationBar *navigationBar;
+    UINavigationItem *navigationItem;
+    UITextField *urlField;
+    
+    UIToolbar *toolbar;
+    UIBarButtonItem *stopButtonItem;
+    UIBarButtonItem *backButtonItem;
+    UIBarButtonItem *forwordButtonItem;
+
+}
+
+
+- (void) loadWebWithString:(NSString *)url;
 
 @end

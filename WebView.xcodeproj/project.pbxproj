@@ -7,6 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		278D0BC1177AC9A700D436C6 /* browserBack.png in Resources */ = {isa = PBXBuildFile; fileRef = 278D0BAF177AC9A700D436C6 /* browserBack.png */; };
+		278D0BC2177AC9A700D436C6 /* browserBack@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 278D0BB0177AC9A700D436C6 /* browserBack@2x.png */; };
+		278D0BC3177AC9A700D436C6 /* browserForward.png in Resources */ = {isa = PBXBuildFile; fileRef = 278D0BB1177AC9A700D436C6 /* browserForward.png */; };
+		278D0BC4177AC9A700D436C6 /* browserForward@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 278D0BB2177AC9A700D436C6 /* browserForward@2x.png */; };
+		278D0BCF177AD2CB00D436C6 /* urlReload.png in Resources */ = {isa = PBXBuildFile; fileRef = 278D0BCB177AD2CB00D436C6 /* urlReload.png */; };
+		278D0BD0177AD2CB00D436C6 /* urlReload@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 278D0BCC177AD2CB00D436C6 /* urlReload@2x.png */; };
+		278D0BD1177AD2CB00D436C6 /* urlStop.png in Resources */ = {isa = PBXBuildFile; fileRef = 278D0BCD177AD2CB00D436C6 /* urlStop.png */; };
+		278D0BD2177AD2CB00D436C6 /* urlStop@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 278D0BCE177AD2CB00D436C6 /* urlStop@2x.png */; };
 		2799848C1769F3FA002ACBCF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2799848B1769F3FA002ACBCF /* UIKit.framework */; };
 		2799848E1769F3FA002ACBCF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2799848D1769F3FA002ACBCF /* Foundation.framework */; };
 		279984901769F3FA002ACBCF /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2799848F1769F3FA002ACBCF /* CoreGraphics.framework */; };
@@ -21,6 +29,14 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		278D0BAF177AC9A700D436C6 /* browserBack.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = browserBack.png; sourceTree = "<group>"; };
+		278D0BB0177AC9A700D436C6 /* browserBack@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "browserBack@2x.png"; sourceTree = "<group>"; };
+		278D0BB1177AC9A700D436C6 /* browserForward.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = browserForward.png; sourceTree = "<group>"; };
+		278D0BB2177AC9A700D436C6 /* browserForward@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "browserForward@2x.png"; sourceTree = "<group>"; };
+		278D0BCB177AD2CB00D436C6 /* urlReload.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = urlReload.png; sourceTree = "<group>"; };
+		278D0BCC177AD2CB00D436C6 /* urlReload@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "urlReload@2x.png"; sourceTree = "<group>"; };
+		278D0BCD177AD2CB00D436C6 /* urlStop.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = urlStop.png; sourceTree = "<group>"; };
+		278D0BCE177AD2CB00D436C6 /* urlStop@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "urlStop@2x.png"; sourceTree = "<group>"; };
 		279984881769F3FA002ACBCF /* WebView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WebView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2799848B1769F3FA002ACBCF /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		2799848D1769F3FA002ACBCF /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -53,6 +69,21 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		278D0BA6177AC9A700D436C6 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				278D0BCB177AD2CB00D436C6 /* urlReload.png */,
+				278D0BCC177AD2CB00D436C6 /* urlReload@2x.png */,
+				278D0BCD177AD2CB00D436C6 /* urlStop.png */,
+				278D0BCE177AD2CB00D436C6 /* urlStop@2x.png */,
+				278D0BAF177AC9A700D436C6 /* browserBack.png */,
+				278D0BB0177AC9A700D436C6 /* browserBack@2x.png */,
+				278D0BB1177AC9A700D436C6 /* browserForward.png */,
+				278D0BB2177AC9A700D436C6 /* browserForward@2x.png */,
+			);
+			path = images;
+			sourceTree = "<group>";
+		};
 		2799847F1769F3FA002ACBCF = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +114,7 @@
 		279984911769F3FA002ACBCF /* WebView */ = {
 			isa = PBXGroup;
 			children = (
+				278D0BA6177AC9A700D436C6 /* images */,
 				2799849A1769F3FA002ACBCF /* WebViewAppDelegate.h */,
 				2799849B1769F3FA002ACBCF /* WebViewAppDelegate.m */,
 				279984A31769F3FA002ACBCF /* MainStoryboard.storyboard */,
@@ -164,6 +196,14 @@
 				279984A01769F3FA002ACBCF /* Default@2x.png in Resources */,
 				279984A21769F3FA002ACBCF /* Default-568h@2x.png in Resources */,
 				279984A51769F3FA002ACBCF /* MainStoryboard.storyboard in Resources */,
+				278D0BC1177AC9A700D436C6 /* browserBack.png in Resources */,
+				278D0BC2177AC9A700D436C6 /* browserBack@2x.png in Resources */,
+				278D0BC3177AC9A700D436C6 /* browserForward.png in Resources */,
+				278D0BC4177AC9A700D436C6 /* browserForward@2x.png in Resources */,
+				278D0BCF177AD2CB00D436C6 /* urlReload.png in Resources */,
+				278D0BD0177AD2CB00D436C6 /* urlReload@2x.png in Resources */,
+				278D0BD1177AD2CB00D436C6 /* urlStop.png in Resources */,
+				278D0BD2177AD2CB00D436C6 /* urlStop@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -299,6 +339,7 @@
 				279984AD1769F3FA002ACBCF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
